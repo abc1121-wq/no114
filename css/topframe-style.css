@@ -140,7 +140,15 @@ a:hover {
 	border-top-width: 1px;
 	border-top-color: #FFF;
 	border-top-style: solid;
-	height: 80px;
+	height: 110px;
+/* 這裡加入陰影 */
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1); 
+    
+    /* 確保陰影不會被遮住，視情況增加層級 */
+    z-index: 999; 
+    
+    /* 如果背景是透明的，建議給個底色，陰影才明顯 */
+    background-color: #ffffff; 
 
 }
 
