@@ -432,3 +432,16 @@ p span {
 #menu li.dropdown:hover .dropdown-content {
 	display: block;
 }
+
+#menu .dropdown-content.grid-layout {
+	left: 0;
+	transform: none;
+}
+
+#menu li.dropdown:hover .dropdown-content.grid-layout {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto auto auto;
+	grid-auto-flow: column;
+	min-width: 240px;
+}
