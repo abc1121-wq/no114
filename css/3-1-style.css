@@ -500,6 +500,23 @@ a:hover {
 
 }
 
+.compal-bodytext2-4-line {
+
+	/* 灰色實線：寬度 1px，實線 solid，顏色 #ccc (淺灰色) */
+	border-bottom: 1px solid #ccc;
+	width: 834px;
+
+	padding-bottom: 0px;
+
+
+	margin-bottom: 16px;
+
+	/* 確保寬度適合（如果是 block 元素會自動延伸） */
+	display: block;
+	margin-left: 20px;
+	/* 這個數值越大，整條線就越往右移 */
+}
+
 .compal-bodytext2-4-0 {
 	line-height: 25px;
 	table-layout: fixed;
