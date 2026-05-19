@@ -14,6 +14,7 @@ body {
 	background-color: transparent;
 	background-repeat: repeat-y;
 	width: 100%;
+	pointer-events: none; /* Let clicks pass through transparent body */
 }
 
 /* This is the page container  */
@@ -149,7 +150,7 @@ a:hover {
     
     /* 如果背景是透明的，建議給個底色，陰影才明顯 */
     background-color: #ffffff; 
-
+    pointer-events: auto; /* Re-enable clicks for the actual menu */
 }
 
 #topbarmenu_ch1 {
@@ -390,7 +391,7 @@ p span {
 
 #menu .dropdown-content {
 	display: none;
-	position: absolute;
+	position: relative;
 	background-color: #ffffff;
 	min-width: 120px;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -431,17 +432,4 @@ p span {
 
 #menu li.dropdown:hover .dropdown-content {
 	display: block;
-}
-
-#menu .dropdown-content.grid-layout {
-	left: 0;
-	transform: none;
-}
-
-#menu li.dropdown:hover .dropdown-content.grid-layout {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: auto auto auto;
-	grid-auto-flow: column;
-	min-width: 240px;
 }
