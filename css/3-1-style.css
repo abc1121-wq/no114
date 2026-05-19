@@ -6,10 +6,10 @@ body {
 	font-family: 微軟正黑體, 標楷體, 細明體, Arial, MS Gothic, Helvetica, sans-serif;
 	margin: 0px;
 	background: #f2f2f3 url() center repeat-y;
-	table-layout: fixed; 
-	word-wrap: break-word; 
-	word-break: normal; 
-	text-align: justify; 
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: normal;
+	text-align: justify;
 	text-justify: inter-ideograph;
 }
 
@@ -38,7 +38,7 @@ body {
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
-               }
+}
 
 
 #content2 {
@@ -57,52 +57,57 @@ body {
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
-               }
+}
 
 
 img {
-    vertical-align: text-bottom;
+	vertical-align: text-bottom;
 }
 
 #img-left {
 	float: left;
 	width: 420px;
-	margin: 0px 25px 25px 0px;}
+	margin: 0px 25px 25px 0px;
+}
 
 .img-left img {
-	float:left;
+	float: left;
 	border: 0px solid #ccc;
-	padding: 0px 25px 25px 0px;} 
+	padding: 0px 25px 25px 0px;
+}
 
-#img-left span{	 
- 	float:left;
+#img-left span {
+	float: left;
 	margin: 25px 25px 25px 0px;
 	padding: 0px px 0px 0px;
-	color:#3D3D3D;
+	color: #3D3D3D;
 }
 
 #img-right {
 	float: right;
 	width: 420px;
-margin: 25px 0px 25px 25px;}
+	margin: 25px 0px 25px 25px;
+}
 
 .img-right img {
 	float: right;
 	border: 0px solid #ccc;
-	padding: 0px 0px 25px 25px;} 
+	padding: 0px 0px 25px 25px;
+}
 
-#img-right span{	 
- 	float: right;
+#img-right span {
+	float: right;
 	margin: 0px 0px 25px 25px;
 	padding: 0px px 0px 0px;
-	color:#3D3D3D;
+	color: #3D3D3D;
 }
+
 #img-top img {
-	float:left;
+	float: left;
 	border: 0px solid #ccc;
 	margin: 25px 0px 0px 0px;
 	padding: 0px px 0px 0px;
-		} 
+}
 
 /* Style-up those ugly default hyperlinks */
 a {
@@ -118,24 +123,30 @@ a:link {
 	border-bottom: 0px solid #fff;
 	background: transparent;
 }
+
 a:visited {
 	color: #063;
 	border-bottom: 0px solid #fff;
 	background: transparent;
 }
-a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;} 
+
+a:hover {
+	color: #488E48;
+	border-bottom: 0px solid #fff;
+	background: transparent;
+}
 
 
 
-#topbanner{
+#topbanner {
 	width: 127px;
 	height: 1px;
-	background:#FFFFFF;
+	background: #FFFFFF;
 	font-size: 12px;
 
 
 
-    font-weight: ;
+	font-weight: ;
 	letter-spacing: 5px;
 	color: #3D3D3D;
 	text-align: right;
@@ -149,7 +160,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 #header {
 	width: 925px;
 	height: 60px;
-	background:#FFFFFF;
+	background: #FFFFFF;
 }
 
 #header_ch {
@@ -164,7 +175,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 	padding: 25px 0px 25px 0px;
 	background-color: #FFFFFF;
 	border-bottom-width: 1px;
-	border-bottom-style: dotted ;
+	border-bottom-style: dotted;
 	border-bottom-color: #000;
 	float: left;
 }
@@ -173,10 +184,10 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 #company2 {
 	width: 875px;
 	height: auto;
-	padding: 25px  0px 25px 0px;
+	padding: 25px 0px 25px 0px;
 	background-color: #FFFFFF;
 	border-bottom-width: 0px;
-	border-bottom-style: dotted ;
+	border-bottom-style: dotted;
 	border-bottom-color: #000;
 	float: left;
 }
@@ -187,7 +198,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 	padding: 0px 0px 0px 0px;
 	background-color: #FFFFFF;
 	border-bottom-width: 0px;
-	border-bottom-style: dotted ;
+	border-bottom-style: dotted;
 	border-bottom-color: #000;
 	float: left;
 }
@@ -196,19 +207,20 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 #mainEntryTitle {
 	width: 875px;
 	font-size: 15px;
-	font-weight:;
+	font-weight: ;
 	background-color: #FFFFFF;
 	height: 40px;
-	padding: 25px  0px 0px 0px;	
+	padding: 25px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 }
+
 #mainEntryTitle_2 {
 	width: 875px;
 	font-size: 15px;
-	font-weight:;
+	font-weight: ;
 	background-color: #FFFFFF;
 	height: 60px;
-	padding: 25px  0px 0px 0px;	
+	padding: 25px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 }
 
@@ -216,37 +228,38 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 #mainEntryTitlenone {
 	width: 870px;
 	font-size: 20px;
-	font-weight:bold;
+	font-weight: bold;
 	background-color: #FFFFFF;
 	height: 40px;
 	padding: 0px;
 	margin: 0px;
 	float: left;
-	color:#00A300;
+	color: #00A300;
 	text-align: center;
 }
+
 #mainEntryTitleleft {
 	width: 550px;
 	font-size: 20px;
-	font-weight:bold;
+	font-weight: bold;
 	background-color: #FFFFFF;
 	height: 40px;
 	padding: 0px;
 	margin: 0px;
 	float: left;
-	color:#00A300;
+	color: #00A300;
 }
 
 #mainEntryTitleleft2 {
 	width: 720px;
 	font-size: 20px;
-	font-weight:bold;
+	font-weight: bold;
 	background-color: #FFFFFF;
 	height: 60px;
 	padding: 0px;
 	margin: 0px;
 	float: left;
-	color:#00A300;
+	color: #00A300;
 }
 
 
@@ -254,106 +267,114 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 	width: 260px;
 	font-size: 12px;
 
-	font-weight:;
-	text-align:right;
+	font-weight: ;
+	text-align: right;
 	background-color: #FFFFFF;
 	height: 40px;
 	padding: 0px;
 	margin: 0px;
 	float: right;
 }
+
 #mainEntryTitleright2 {
 	width: 100px;
 	font-size: 12px;
 
 
-	font-weight:;
-	text-align:right;
+	font-weight: ;
+	text-align: right;
 	background-color: #FFFFFF;
 	height: 40px;
-	padding: 0px  0px 0px 0px;
+	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 	float: right;
 }
+
 #mainEntryTitleleft3 {
 	width: 550px;
 	font-size: 20px;
-	font-weight:bold;
+	font-weight: bold;
 	background-color: #FFFFFF;
 	height: 40px;
-	padding: 0px  0px 0px 0px;	
+	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 	float: left;
-	color:#00A300;
+	color: #00A300;
 }
+
 #mainEntryTitleright3 {
 	width: 300px;
 	font-size: 12px;
-	font-weight:;
-	text-align:right ;
+	font-weight: ;
+	text-align: right;
 	background-color: #FFFFFF;
 	height: 40px;
-	padding: 0px  0px 0px 0px;	
+	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 	float: right;
 }
+
 #mainEntryTitleleft4 {
 	width: 450px;
 	font-size: 20px;
-	font-weight:bold;
+	font-weight: bold;
 	background-color: #FFFFFF;
 	height: 40px;
-	padding: 0px  0px 0px 0px;	
+	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 	float: left;
-	color:#00A300;
+	color: #00A300;
 }
+
 #mainEntryTitleright4 {
 	width: 400px;
 	font-size: 12px;
-	font-weight:;
-	text-align:right ;
+	font-weight: ;
+	text-align: right;
 	background-color: #FFFFFF;
 	height: 40px;
-	padding: 0px  0px 0px 0px;	
+	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 	float: right;
 }
+
 #mainEntryTitleleft5 {
 	width: 750px;
 	font-size: 20px;
-	font-weight:bold;
+	font-weight: bold;
 	background-color: #FFFFFF;
 	height: 40px;
 	float: left;
-	color:#00A300;
+	color: #00A300;
 }
+
 #mainEntryTitleleft6 {
 	width: 600px;
 	font-size: 20px;
-	font-weight:bold;
+	font-weight: bold;
 	background-color: #FFFFFF;
 	height: 40px;
 	padding: 0px;
 	margin: 0px;
 	float: left;
-	color:#00A300;
+	color: #00A300;
 }
+
 #mainEntryTitleleft7 {
 	width: 500px;
 	font-size: 20px;
-	font-weight:bold;
+	font-weight: bold;
 	background-color: #FFFFFF;
 	height: 60px;
 	padding: 0px;
 	margin: 0px;
 	float: left;
-	color:#00A300;
+	color: #00A300;
 }
 
 #compal-body {
 	background-color: #FFFFFF;
-	width: 875px;	
+	width: 875px;
 	height: auto;
 	float: left;
 	padding: 25px 0px 25px 00px;
@@ -364,7 +385,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 
 #compal-body2 {
 	background-color: #FFFFFF;
-	width: 875px;	
+	width: 875px;
 	height: auto;
 	float: left;
 	padding: 25px 0px 0px 0px;
@@ -373,7 +394,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 }
 
 .compal-bodytext {
-	line-height:25px;
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -382,7 +403,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 }
 
 .compal-bodytext-center {
-	line-height:25px;
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -391,7 +412,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 }
 
 .compal-bodytext01 {
-	line-height:25px;
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -402,7 +423,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 }
 
 .compal-bodytext64 {
-	line-height:25px;
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -410,8 +431,9 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 	text-justify: inter-ideograph;
 	color: #930;
 }
+
 .compal-bodytext02 {
-	line-height:25px;
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -420,7 +442,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 }
 
 .compal-bodytext2 {
-	line-height:25px;
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -433,7 +455,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 }
 
 .compal-bodytext2-1 {
-	line-height:25px;
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -446,8 +468,9 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 
 }
 
-.compal-bodytext2-2 {/*rock-add-2013/12/04*/
-	line-height:25px;
+.compal-bodytext2-2 {
+	/*rock-add-2013/12/04*/
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -456,15 +479,17 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 	padding-right: 20px;
 	padding-left: 20px;
 	color: #930;
-	font-size: 18px;	
+	font-size: 18px;
 }
-.compal-bodytext2-3 {/*rock-add-2013/12/04*/
+
+.compal-bodytext2-3 {
+	/*rock-add-2013/12/04*/
 	color: #930;
-	font-size: 15px;	
+	font-size: 15px;
 }
 
 .compal-bodytext2-4 {
-	line-height:25px;
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -475,8 +500,30 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 
 }
 
+.compal-bodytext2-4-0 {
+	line-height: 25px;
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: normal;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	padding-right: 20px;
+	padding-left: 20px;
+	/* 綠色線條：寬度(5px) 實線(solid) 顏色(#26a69a) */
+	border-left: 4px solid #26a69a;
+
+	/* 讓文字與線條之間產生間距，才不會擠在一起 */
+	padding-left: 8px;
+
+	/* 設定行高，讓閱讀更舒適 */
+	line-height: 1.8;
+
+	/* 選擇性：如果希望線條與邊界有距離 */
+	margin-left: 23px;
+}
+
 .compal-bodytext2-4-1 {
-	line-height:25px;
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -486,6 +533,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 	padding-left: 8px;
 
 }
+
 .compal-bodytext2-4-2 {
 	line-height: 25px;
 	table-layout: fixed;
@@ -498,7 +546,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 }
 
 .compal-bodytext2-4c {
-	line-height:25px;
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -510,7 +558,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 }
 
 .compal-bodytext2-4cc {
-	line-height:25px;
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -522,7 +570,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 }
 
 .compal-bodytext2c {
-	line-height:25px;
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -533,8 +581,9 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 	padding-left: 20px;
 	font-style: italic;
 }
+
 .compal-bodytext2-5 {
-	line-height:25px;
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -544,8 +593,9 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 	text-align: justify;
 	text-indent: 2em;
 }
+
 .compal-bodytext2-6 {
-	line-height:25px;
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -559,7 +609,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 }
 
 .compal-bodytext2-7 {
-	line-height:25px;
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -572,7 +622,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 }
 
 .compal-bodytext2-7-0 {
-	line-height:25px;
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -584,7 +634,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 }
 
 .compal-bodytext2-7-1 {
-	line-height:25px;
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -596,7 +646,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 }
 
 .compal-bodytext2-7-2 {
-	line-height:25px;
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -609,7 +659,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 }
 
 .compal-bodytext2-7-3 {
-	line-height:30px;
+	line-height: 30px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -619,7 +669,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 }
 
 .compal-bodytext2-7c {
-	line-height:25px;
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -632,7 +682,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 }
 
 .compal-bodytext2-8 {
-	line-height:25px;
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -645,7 +695,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 }
 
 .compal-bodytext6 {
-	line-height:30px;
+	line-height: 30px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -658,7 +708,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 }
 
 .compal-bodytext6-1 {
-	line-height:30px;
+	line-height: 30px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -668,8 +718,8 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 
 }
 
-.compal-bodytext21{
-	line-height:25px;
+.compal-bodytext21 {
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -681,8 +731,8 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 
 }
 
-.compal-bodytext22{
-	line-height:25px;
+.compal-bodytext22 {
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -696,7 +746,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 
 
 .compal-bodytext3 {
-	font-weight:bold;
+	font-weight: bold;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
@@ -706,32 +756,34 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 }
 
 .compal-bodytext31 {
-	color:#990033;
-	font-weight:bold;
+	color: #990033;
+	font-weight: bold;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
 	text-align: justify;
 	text-justify: inter-ideograph;
-	line-height:2em;
+	line-height: 2em;
 }
 
-.compal-bodytext5  {
+.compal-bodytext5 {
 	font-size: 16px;
-	font-weight:bold;
+	font-weight: bold;
 	color: #676767;
-	table-layout: fixed; 
+	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
-	text-align: justify; 
+	text-align: justify;
 	text-justify: inter-ideograph;
 }
+
 .___ {
 	background-color: #FFFFFF;
 	border-bottom-width: 1px;
 	border-bottom-style: dotted;
 	border-bottom-color: #999;
 }
+
 .padding_top {
 	padding-top: 15px;
 }
@@ -740,17 +792,17 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 
 #compal-bodytext4 {
 	background-color: #FFFFFF;
-	width: 875px;	
+	width: 875px;
 	height: auto;
 	float: left;
 	padding: 10px 0px 15px 0px;
 	margin: 0px 0px 0px 0px;
 
-	font-weight:bold;
-	table-layout: fixed; 
+	font-weight: bold;
+	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
-	text-align: justify; 
+	text-align: justify;
 	text-justify: inter-ideograph;
 
 }
@@ -758,7 +810,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 
 #compal-body li {
 	background-color: #FFFFFF;
-	width: 550px;	
+	width: 550px;
 	height: auto;
 	float: left;
 	padding: 5px 0px 5px 0px;
@@ -767,26 +819,26 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 }
 
 
-#li{
-	line-height:25px;
+#li {
+	line-height: 25px;
 	height: 25px;
 	width: 550px;
-	table-layout: fixed; 
+	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
-	text-align: justify; 
+	text-align: justify;
 	text-justify: inter-ideograph;
-	list-style-type: disc; 
+	list-style-type: disc;
 
 }
 
 
 p span {
- font-size:30px; 
- float:left;
- padding-right:5px;
- font-family:Arial, MS Gothic, Helvetica, sans-serif;
- color:#3D3D3D;
+	font-size: 30px;
+	float: left;
+	padding-right: 5px;
+	font-family: Arial, MS Gothic, Helvetica, sans-serif;
+	color: #3D3D3D;
 }
 
 #imagespaceright {
@@ -795,7 +847,7 @@ p span {
 	height: auto;
 	float: right;
 	padding: 21px 0px 0px 0px;
-	margin:  0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 }
 
 #imagespaceleft {
@@ -804,8 +856,8 @@ p span {
 	height: autopx;
 	float: left;
 	padding: 0px 0px 0px 0px;
-	margin:  0px 0px 0px 0px;
-	
+	margin: 0px 0px 0px 0px;
+
 }
 
 
@@ -813,10 +865,10 @@ p span {
 #topimagesbox {
 	width: 875px;
 	font-size: 15px;
-	font-weight:bold;
+	font-weight: bold;
 	background-color: #FFFFFF;
 	height: auto;
-	padding: 0px 0px 0px 0px;	
+	padding: 0px 0px 0px 0px;
 	margin: 25px 0px 25px 0px;
 	text-align: center;
 }
@@ -825,10 +877,10 @@ p span {
 	float: left;
 	width: 875px;
 	font-size: 15px;
-	font-weight:bold;
+	font-weight: bold;
 	background-color: #FFFFFF;
 	height: auto;
-	padding: 0px 0px 0px 0px;	
+	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 25px 0px;
 	text-align: center;
 }
@@ -838,11 +890,11 @@ p span {
 
 #topimages {
 	width: 875px;
-	height:auto;
-	padding: 0px  0px 0px 0px;
+	height: auto;
+	padding: 0px 0px 0px 0px;
 	background-color: #FFFFFF;
 	border-bottom-width: 0px;
-	border-bottom-style: dotted ;
+	border-bottom-style: dotted;
 	border-bottom-color: #000;
 }
 
@@ -852,16 +904,16 @@ p span {
 	height: auto;
 	float: left;
 	padding: 0px 0px 0px 0px;
-	margin:  0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 }
 
 #columnsright {
 	background-color: #FFFFFF;
 	width: 275px;
 	height: auto;
-	float:  left;
+	float: left;
 	padding: 0px 0px 0px 0px;
-	margin:  0px 0px 0px 25px;
+	margin: 0px 0px 0px 25px;
 }
 
 #columnsleft2 {
@@ -870,7 +922,7 @@ p span {
 	height: auto;
 	float: left;
 	padding: 0px 0px 0px 0px;
-	margin:  0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 }
 
 #columnsleft3 {
@@ -879,74 +931,104 @@ p span {
 	height: auto;
 	float: left;
 	padding: 0px 0px 0px 0px;
-	margin:  0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 }
 
 #footer {
 	width: 925px;
 	height: 25px;
-	background: url(../images/footerbg_tit.jpg) ;
+	background: url(../images/footerbg_tit.jpg);
 	color: #FFFFFF;
 	text-align: center;
 	vertical-align: middle;
 	clear: both;
 	clear: both;
 	padding: 0px 0px 0px 0px;
-	margin:  0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 }
-#footer a:link {color: #FFFFFF; border-bottom: 0px solid #FFFFFF; background: transparent;} 
-#footer a:visited {color: #FFFFFF; border-bottom: 0px solid #FFFFFF; background: transparent;}
-#footer a:hover {color: #666666; border-bottom: 0px solid #FFFFFF; background: transparent;}
+
+#footer a:link {
+	color: #FFFFFF;
+	border-bottom: 0px solid #FFFFFF;
+	background: transparent;
+}
+
+#footer a:visited {
+	color: #FFFFFF;
+	border-bottom: 0px solid #FFFFFF;
+	background: transparent;
+}
+
+#footer a:hover {
+	color: #666666;
+	border-bottom: 0px solid #FFFFFF;
+	background: transparent;
+}
 
 
-.txt_01{
-	color:#060;
+.txt_01 {
+	color: #060;
 	font-weight: bold;
 }
-.txt_01_1{
-	color:#060;
+
+.txt_01_1 {
+	color: #060;
 	font-weight: bold;
 	padding-left: 20px;
 }
-.txt_02{
-	color:#C03;
+
+.txt_02 {
+	color: #C03;
 	font-weight: bold;
 }
-.txt_03{
-	color:#03F;
+
+.txt_03 {
+	color: #03F;
 }
-.txt_04{
-	color:#F0F;
+
+.txt_04 {
+	color: #F0F;
 }
-.txt_05{
-	color:#F90;
+
+.txt_05 {
+	color: #F90;
 }
-.txt_06{
-	color:#669;
+
+.txt_06 {
+	color: #669;
 }
-.txt_07{
-	color:#039;
+
+.txt_07 {
+	color: #039;
 }
-.txt_08{
-	color:#000;
+
+.txt_08 {
+	color: #000;
 	line-height: 20px;
 }
-.txt_08_1{
-	color:#000;
+
+.txt_08_1 {
+	color: #000;
 	line-height: 20px;
 	padding-left: 20px;
 }
-.txt_08_2{
-	color:#00F;
+
+.txt_08_2 {
+	color: #00F;
 	font-weight: bold;
 	line-height: 20px;
 	padding-left: 20px;
 }
-.txt_64{
-	color:#930;
+
+.txt_64 {
+	color: #930;
 	font-size: 20px;
 }
-.padding_001{
-	padding-left: 20px;}
-.padding_01{
-	padding-left: 10px;}
+
+.padding_001 {
+	padding-left: 20px;
+}
+
+.padding_01 {
+	padding-left: 10px;
+}
