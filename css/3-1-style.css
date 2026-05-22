@@ -250,6 +250,18 @@ a:hover {
 	color: #00A300;
 }
 
+#mainEntryTitleleft_2 {
+	width: 550px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	height: 50px;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	color: #00A300;
+}
+
 #mainEntryTitleleft2 {
 	width: 720px;
 	font-size: 20px;
