@@ -1,4 +1,4 @@
-﻿/*請勿擅自修改 by haco吳淑玲*hacodog@gmail.com*/
+/*請勿擅自修改 by haco吳淑玲*hacodog@gmail.com*/
 
 /* 整體設定、背景、段落、字體*/
 body {
@@ -209,9 +209,17 @@ a:hover {
 	font-size: 15px;
 	font-weight: ;
 	background-color: #FFFFFF;
-	height: 40px;
+	height: auto;
+	min-height: 40px;
 	padding: 25px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+#mainEntryTitle > div {
+	height: auto !important;
 }
 
 #mainEntryTitle_2 {
@@ -219,9 +227,17 @@ a:hover {
 	font-size: 15px;
 	font-weight: ;
 	background-color: #FFFFFF;
-	height: 60px;
+	height: auto;
+	min-height: 60px;
 	padding: 25px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+#mainEntryTitle_2 > div {
+	height: auto !important;
 }
 
 
@@ -507,8 +523,8 @@ a:hover {
 	word-break: normal;
 	text-align: justify;
 	text-justify: inter-ideograph;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-right: 0px;
+	padding-left: 0px;
 
 }
 

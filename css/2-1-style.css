@@ -142,9 +142,17 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 	font-size: 15px;
 	font-weight:;
 	background-color: #FFFFFF;
-	height: 40px;
+	height: auto;
+	min-height: 40px;
 	padding: 25px  0px 0px 0px;	
 	margin: 0px 0px 0px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+#mainEntryTitle > div {
+	height: auto !important;
 }
 
 

@@ -1,4 +1,4 @@
-﻿<html>
+<html>
 	<head>
 	<link rel="SHORTCUT ICON" href="images/compal-wbe-logo.ico"/>
 	<meta name="Generator" content="" />
@@ -54,9 +54,9 @@ function view() {
 
     ViewWin=window.open("","WIN","width=" + myW + ",height=" + myH + ",left=" + leftpos + ",top=" + toppos + ",scrollbars=yes,resizable=yes,resize=yes");
     ViewWin.document.open();
-    ViewWin.document.write("<HTML><HEAD><TITLE>view</TITLE></HEAD><BODY><CENTER>\n");
-    ViewWin.document.write("<A HREF=\"javascript:self.close()\;\"><IMG SRC='" + pic.src + "' BORDER=0></A>\n");
-    ViewWin.document.write("</CENTER></BODY></HTML>\n");
+    ViewWin.document.write("<HTML><HEAD><TITLE>view<\/TITLE><\/HEAD><BODY><CENTER>\n");
+    ViewWin.document.write("<A HREF=\"javascript:self.close()\;\"><IMG SRC='" + pic.src + "' BORDER=0><\/A>\n");
+    ViewWin.document.write("<\/CENTER><\/BODY><\/HTML>\n");
     ViewWin.document.close();
   } else { setTimeout("view()", 500); }
 }

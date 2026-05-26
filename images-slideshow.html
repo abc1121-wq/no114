@@ -23,47 +23,47 @@
 			window.open(theURL, winName, features);
 		}
 	</script>
-<!--點小圖連結大圖-->
-<script type="text/javascript">
-	var NS = (navigator.appName == "Netscape") ? 1 : 0;
-	var height = screen.height;
-	var width = screen.width;
-	var leftpos = 0;
-	var toppos = 0;
-	var myH = 0;
-	var myW = 0;
-	pic = new Image();
+	<!--點小圖連結大圖-->
+	<script type="text/javascript">
+		var NS = (navigator.appName == "Netscape") ? 1 : 0;
+		var height = screen.height;
+		var width = screen.width;
+		var leftpos = 0;
+		var toppos = 0;
+		var myH = 0;
+		var myW = 0;
+		pic = new Image();
 
-	function read(url) {
-	  pic = new Image();
-	  pic.src = url;
-	  setTimeout("view()", 500);
-	}
-
-	function view() {
-	  if (eval(pic).height) {
-		clearTimeout();
-
-		if (NS) {
-		  myH = eval(pic).height;
-		  myW = eval(pic).width;
-		} else {
-		  myH = eval(pic).height + 20;
-		  myW = eval(pic).width + 20;
+		function read(url) {
+			pic = new Image();
+			pic.src = url;
+			setTimeout("view()", 500);
 		}
-		leftpos = width / 2 - myW / 2;
-		toppos = height / 2 - myH / 2;
 
-		ViewWin=window.open("","WIN","width=" + myW + ",height=" + myH + ",left=" + leftpos + ",top=" + toppos + ",scrollbars=yes,resizable=yes,resize=yes");
-		ViewWin.document.open();
-		ViewWin.document.write("<HTML><HEAD><TITLE>view<\/TITLE><\/HEAD><BODY><CENTER>\n");
-		ViewWin.document.write("<A HREF=\"javascript:self.close()\;\"><IMG SRC='" + pic.src + "' BORDER=0><\/A>\n");
-		ViewWin.document.write("<\/CENTER><\/BODY><\/HTML>\n");
-		ViewWin.document.close();
-	  } else { setTimeout("view()", 500); }
-	}
-</script>
-<!--點小圖連結大圖結束-->
+		function view() {
+			if (eval(pic).height) {
+				clearTimeout();
+
+				if (NS) {
+					myH = eval(pic).height;
+					myW = eval(pic).width;
+				} else {
+					myH = eval(pic).height + 20;
+					myW = eval(pic).width + 20;
+				}
+				leftpos = width / 2 - myW / 2;
+				toppos = height / 2 - myH / 2;
+
+				ViewWin = window.open("", "WIN", "width=" + myW + ",height=" + myH + ",left=" + leftpos + ",top=" + toppos + ",scrollbars=yes,resizable=yes,resize=yes");
+				ViewWin.document.open();
+				ViewWin.document.write("<HTML><HEAD><TITLE>view<\/TITLE><\/HEAD><BODY><CENTER>\n");
+				ViewWin.document.write("<A HREF=\"javascript:self.close()\;\"><IMG SRC='" + pic.src + "' BORDER=0><\/A>\n");
+				ViewWin.document.write("<\/CENTER><\/BODY><\/HTML>\n");
+				ViewWin.document.close();
+			} else { setTimeout("view()", 500); }
+		}
+	</script>
+	<!--點小圖連結大圖結束-->
 </head>
 
 <body>
@@ -82,7 +82,7 @@
 			<div id="thumbs" class="navigation">
 				<ul class="thumbs noscript">
 					<!--圖片列表開始-->
-					
+
 					<li><a class="thumb" href="slideshow/3/580/01-1.jpg" title="1.洪秉誠│羊蹄山洞爺湖">
 							<img src="slideshow/3/75/01-1.jpg" alt="1.洪秉誠│羊蹄山洞爺湖" /></a>
 						<div class="caption">
@@ -101,8 +101,9 @@
 							</div>
 						</div>
 					</li>
-					
-					<li><a class="thumb" href="slideshow/3/580/02-1.jpg" title="2.蘇承宜│糖果屋般的賈米埃勒阿爾法清真寺 (Jami Ul-Alfar Mosque)">
+
+					<li><a class="thumb" href="slideshow/3/580/02-1.jpg"
+							title="2.蘇承宜│糖果屋般的賈米埃勒阿爾法清真寺 (Jami Ul-Alfar Mosque)">
 							<img src="slideshow/3/75/02-1.jpg" alt="2.蘇承宜│糖果屋般的賈米埃勒阿爾法清真寺 (Jami Ul-Alfar Mosque)" /></a>
 						<div class="caption">
 							<div class="download">
@@ -113,14 +114,14 @@
 							</div>
 							<div class="image-title">
 								<div class="image-title-left">&lt;糖果屋般的賈米埃勒阿爾法清真寺&gt; <br>(Jami Ul-Alfar Mosque)</div>
-								<div class="image-title-name">蘇承宜│業務開發處 \ 業務運籌部</div>
+								<div class="image-title-name-35">蘇承宜│業務開發處 \ 業務運籌部</div>
 							</div>
 							<div class="image-desc">
 								<div class="image-desc-left">又稱紅白清真寺，外牆由紅、白兩色磚塊交替堆疊而成（並非噴漆）</div>
 							</div>
 						</div>
 					</li>
-					
+
 					<li><a class="thumb" href="slideshow/3/580/03-1.jpg" title="3.金國琳│雲端之手托起的夢幻金橋">
 							<img src="slideshow/3/75/03-1.jpg" alt="3.金國琳│雲端之手托起的夢幻金橋" /></a>
 						<div class="caption">
@@ -135,7 +136,8 @@
 								<div class="image-title-name">金國琳│數位採購資料處 \ 策略採購資料一部</div>
 							</div>
 							<div class="image-desc">
-								<div class="image-desc-left">漫步在海拔千米的山巒之上，金色步道彷彿被巨大的雙手輕輕托起，行走其間，不僅能俯瞰壯闊山景，更讓人感受到置身天空的奇幻氛圍，是視覺與心境都被療癒的難忘體驗。</div>
+								<div class="image-desc-left">
+									漫步在海拔千米的山巒之上，金色步道彷彿被巨大的雙手輕輕托起，行走其間，不僅能俯瞰壯闊山景，更讓人感受到置身天空的奇幻氛圍，是視覺與心境都被療癒的難忘體驗。</div>
 							</div>
 						</div>
 					</li>
@@ -154,11 +156,13 @@
 								<div class="image-title-name">楊子慧│機構技術處 \ 聲學音響結構部</div>
 							</div>
 							<div class="image-desc">
-								<div class="image-desc-left">這張照片拍攝於神戶布引香草園纜車上，紅色纜車懸掛於半空，俯瞰整座神戶城市。高樓林立與港灣海景交織，遠方天際在夕陽餘暉下泛著柔和金光。腳下綠意山林與都市街道形成鮮明對比，展現自然與城市共存的景致。透過纜車窗景，彷彿在空中漫遊，靜靜欣賞這座城市的節奏與溫度。</div>
+								<div class="image-desc-left">
+									這張照片拍攝於神戶布引香草園纜車上，紅色纜車懸掛於半空，俯瞰整座神戶城市。高樓林立與港灣海景交織，遠方天際在夕陽餘暉下泛著柔和金光。腳下綠意山林與都市街道形成鮮明對比，展現自然與城市共存的景致。透過纜車窗景，彷彿在空中漫遊，靜靜欣賞這座城市的節奏與溫度。
+								</div>
 							</div>
 						</div>
 					</li>
-					
+
 					<li><a class="thumb" href="slideshow/3/580/04-2.jpg" title="5.楊子慧│秋韻靜境">
 							<img src="slideshow/3/75/04-2.jpg" alt="5.楊子慧│秋韻靜境" /></a>
 						<div class="caption">
@@ -173,12 +177,14 @@
 								<div class="image-title-name">楊子慧│機構技術處 \ 聲學音響結構部</div>
 							</div>
 							<div class="image-desc">
-								<div class="image-desc-left">紅橙交織的葉片輕放於深藍色器皿中，色彩對比鮮明，展現秋日的溫潤層次。前景清晰細緻，背景柔和虛化，隱約可見庭園綠意與枝影，營造出寧靜悠遠的氛圍。光影灑落石面，增添自然質感與時間流動感，彷彿將瞬間的美好凝結於畫面之中。</div>
+								<div class="image-desc-left">
+									紅橙交織的葉片輕放於深藍色器皿中，色彩對比鮮明，展現秋日的溫潤層次。前景清晰細緻，背景柔和虛化，隱約可見庭園綠意與枝影，營造出寧靜悠遠的氛圍。光影灑落石面，增添自然質感與時間流動感，彷彿將瞬間的美好凝結於畫面之中。
+								</div>
 							</div>
 						</div>
 					</li>
-					
-										<li><a class="thumb" href="slideshow/3/580/05-1.jpg" title="6.歐怡伶│波上宮">
+
+					<li><a class="thumb" href="slideshow/3/580/05-1.jpg" title="6.歐怡伶│波上宮">
 							<img src="slideshow/3/75/05-1.jpg" alt="6.歐怡伶│波上宮" /></a>
 						<div class="caption">
 							<div class="download">
@@ -196,7 +202,7 @@
 							</div>
 						</div>
 					</li>
-					
+
 					<li><a class="thumb" href="slideshow/3/580/05-2.jpg" title="7.歐怡伶│雪人">
 							<img src="slideshow/3/75/05-2.jpg" alt="7.歐怡伶│雪人" /></a>
 						<div class="caption">
@@ -215,7 +221,7 @@
 							</div>
 						</div>
 					</li>
-					
+
 					<li><a class="thumb" href="slideshow/3/580/05-3.jpg" title="8.歐怡伶│聖誕樹">
 							<img src="slideshow/3/75/05-3.jpg" alt="8.歐怡伶│聖誕樹" /></a>
 						<div class="caption">
@@ -253,7 +259,7 @@
 							</div>
 						</div>
 					</li>
-					
+
 					<li><a class="thumb" href="slideshow/3/580/06-1.jpg" title="10.曾玟翔│蛤?">
 							<img src="slideshow/3/75/06-1.jpg" alt="10.曾玟翔│蛤?" /></a>
 						<div class="caption">
@@ -272,7 +278,7 @@
 							</div>
 						</div>
 					</li>
-					
+
 					<li><a class="thumb" href="slideshow/3/580/07-1.jpg" title="11.劉柏君│店長狗狗!!">
 							<img src="slideshow/3/75/07-1.jpg" alt="11.劉柏君│店長狗狗!!" /></a>
 						<div class="caption">
@@ -287,11 +293,12 @@
 								<div class="image-title-name">曾玟翔│IPC研發一處 \ 硬體研發部</div>
 							</div>
 							<div class="image-desc">
-								<div class="image-desc-left">位於湖口的小咖啡廳，每當有客人要去櫃檯點餐時，店長狗狗馬上就會敬業的站到點餐檯上招呼客人，非常的乖巧，是不是讓人看了一整天都會心情愉快!!</div>
+								<div class="image-desc-left">
+									位於湖口的小咖啡廳，每當有客人要去櫃檯點餐時，店長狗狗馬上就會敬業的站到點餐檯上招呼客人，非常的乖巧，是不是讓人看了一整天都會心情愉快!!</div>
 							</div>
 						</div>
 					</li>
-					
+
 					<li><a class="thumb" href="slideshow/3/580/08-1.jpg" title="12.邱詩儒│櫻花">
 							<img src="slideshow/3/75/08-1.jpg" alt="12.邱詩儒│櫻花" /></a>
 						<div class="caption">
@@ -329,7 +336,7 @@
 							</div>
 						</div>
 					</li>
-					
+
 					<li><a class="thumb" href="slideshow/3/580/010-1.jpg" title="14.林彥廷│九眼橋">
 							<img src="slideshow/3/75/010-1.jpg" alt="14.林彥廷│九眼橋" /></a>
 						<div class="caption">
@@ -348,7 +355,7 @@
 							</div>
 						</div>
 					</li>
-					
+
 					<li><a class="thumb" href="slideshow/3/580/010-2.jpg" title="15.林彥廷│朝曙">
 							<img src="slideshow/3/75/010-2.jpg" alt="15.林彥廷│朝曙" /></a>
 						<div class="caption">
@@ -367,7 +374,7 @@
 							</div>
 						</div>
 					</li>
-					
+
 					<li><a class="thumb" href="slideshow/3/580/011-2.jpg" title="16.連柏柔│碧山露營場空中步道">
 							<img src="slideshow/3/75/011-2.jpg" alt="16.連柏柔│碧山露營場空中步道" /></a>
 						<div class="caption">
@@ -386,7 +393,7 @@
 							</div>
 						</div>
 					</li>
-					
+
 					<li><a class="thumb" href="slideshow/3/580/011-1.jpg" title="17.連柏柔│日月潭文武廟">
 							<img src="slideshow/3/75/011-1.jpg" alt="17.連柏柔│日月潭文武廟" /></a>
 						<div class="caption">
@@ -401,11 +408,12 @@
 								<div class="image-title-name">連柏柔│企業產品硬體工程一處</div>
 							</div>
 							<div class="image-desc">
-								<div class="image-desc-left">因前殿祀關聖帝君，後殿祀至聖先師孔子，因而命名為文武廟，從日治時期至今，歷經了幾次重建後，如今又多了觀景平台與後山花園，也吸引了不少觀光客造訪。</div>
+								<div class="image-desc-left">
+									因前殿祀關聖帝君，後殿祀至聖先師孔子，因而命名為文武廟，從日治時期至今，歷經了幾次重建後，如今又多了觀景平台與後山花園，也吸引了不少觀光客造訪。</div>
 							</div>
 						</div>
 					</li>
-					
+
 					<li><a class="thumb" href="slideshow/3/580/012-2.jpg" title="18.黃偉玉│阿寒湖冰上煙火表演">
 							<img src="slideshow/3/75/012-2.jpg" alt="18.黃偉玉│阿寒湖冰上煙火表演" /></a>
 						<div class="caption">
@@ -424,7 +432,7 @@
 							</div>
 						</div>
 					</li>
-					
+
 					<li><a class="thumb" href="slideshow/3/580/012-1.jpg" title="19.黃偉玉│丹頂鶴自然公園">
 							<img src="slideshow/3/75/012-1.jpg" alt="19.黃偉玉│丹頂鶴自然公園" /></a>
 						<div class="caption">
@@ -458,11 +466,12 @@
 								<div class="image-title-name">黃名榕│數據中心系統開發業務本部 \ 主件策略採購部</div>
 							</div>
 							<div class="image-desc">
-								<div class="image-desc-left">夕陽緩緩落下，把整片海染成溫柔的橘色，就像是一天的情緒也被安放著。橋靜靜橫在遠方，看著波浪看著夕陽，只想停在光還沒完全消失之前，記住這份剛剛好的寧靜與餘溫。</div>
+								<div class="image-desc-left">
+									夕陽緩緩落下，把整片海染成溫柔的橘色，就像是一天的情緒也被安放著。橋靜靜橫在遠方，看著波浪看著夕陽，只想停在光還沒完全消失之前，記住這份剛剛好的寧靜與餘溫。</div>
 							</div>
 						</div>
 					</li>
-					
+
 					<li><a class="thumb" href="slideshow/3/580/013-3.jpg" title="21.黃名榕│光的方向">
 							<img src="slideshow/3/75/013-3.jpg" alt="21.黃名榕│光的方向" /></a>
 						<div class="caption">
@@ -477,11 +486,12 @@
 								<div class="image-title-name">黃名榕│數據中心系統開發業務本部 \ 主件策略採購部</div>
 							</div>
 							<div class="image-desc">
-								<div class="image-desc-left">陽光穿過樹林，落在蜿蜒的小徑上，像在替前方指引方向。光總會在某個角度出現，提醒我繼續往前。也許路不一定筆直，但跟著光還有心的方向，就不會迷路。</div>
+								<div class="image-desc-left">
+									陽光穿過樹林，落在蜿蜒的小徑上，像在替前方指引方向。光總會在某個角度出現，提醒我繼續往前。也許路不一定筆直，但跟著光還有心的方向，就不會迷路。</div>
 							</div>
 						</div>
 					</li>
-					
+
 					<li><a class="thumb" href="slideshow/3/580/013-1.jpg" title="22.黃名榕│城市軌跡">
 							<img src="slideshow/3/75/013-1.jpg" alt="22.黃名榕│城市軌跡" /></a>
 						<div class="caption">
@@ -496,7 +506,9 @@
 								<div class="image-title-name">黃名榕│數據中心系統開發業務本部 \ 主件策略採購部</div>
 							</div>
 							<div class="image-desc">
-								<div class="image-desc-left">鐵軌延伸向遠方，連向城市著名的地標大樓。城市的喧囂在兩側流動，而我站在中間，看著它們交錯。人生也許也是這樣，各自前進、各自精彩，但總有一段路，是屬於自己慢慢走完的風景。</div>
+								<div class="image-desc-left">
+									鐵軌延伸向遠方，連向城市著名的地標大樓。城市的喧囂在兩側流動，而我站在中間，看著它們交錯。人生也許也是這樣，各自前進、各自精彩，但總有一段路，是屬於自己慢慢走完的風景。
+								</div>
 							</div>
 						</div>
 					</li>
